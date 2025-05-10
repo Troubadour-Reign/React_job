@@ -1,12 +1,31 @@
-# React + Vite
+# React Job App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple job listing web app built using React, JSON Server, and Tailwind CSS.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- List of job openings.
+- Add, update, and delete job listings.
+- Responsive design using Tailwind CSS.
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- JSON Server
+- Tailwind CSS
+
+## Live Demo
+
+You can view the live demo here: [Live Demo - React Job App](https://react-job-2a6h.onrender.com)
+
+## App Instructions
+
+The inspo of this app is from: [Traversy Media React Crash Course](https://www.youtube.com/watch?v=LDB4uaJ87e0)
+
+## Setup
+
+To run this project locally:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/YourUsername/React_job.git
