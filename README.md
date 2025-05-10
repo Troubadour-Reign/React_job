@@ -28,4 +28,4 @@ To run this project locally:
 
 1. Clone the repository:
    ```bash
-   git clone [React_job.git](https://github.com/Troubadour-Reign/React_job)
+   git clone https://github.com/Troubadour-Reign/React_job
