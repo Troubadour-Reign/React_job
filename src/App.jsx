@@ -12,11 +12,12 @@ import JobPage, { jobLoader } from './pages/JobPage';
 import AddJobPage from './pages/AddJobPage';
 import EditJobPage from './pages/EditJobPage';
 
+const API_URL = import.meta.env.VITE_API_URL || "http://localhost:8000";
 
 const App = () => {
   // Function to add a new job
   const addJob = async (newJob) => {
-    const response = await fetch("/api/jobs", {
+    const response = await fetch(`${API_URL}/jobs`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -31,7 +32,7 @@ const App = () => {
 
 // Delete job function
 const deleteJob = async (id) => {
-  const response = await fetch(`/api/jobs/${id}`, {
+  const response = await fetch(`${API_URL}/jobs/${id}`, {
     method: "DELETE",
   });
   if (!response.ok) {
@@ -42,7 +43,7 @@ const deleteJob = async (id) => {
 
 // Function to update a job
 const updateJob = async (updatedJob) => {
-  const response = await fetch(`/api/jobs/${updatedJob.id}`, {
+  const response = await fetch(`${API_URL}/jobs/${updatedJob.id}`, {
     method: "PUT",
     headers: {
       "Content-Type": "application/json",
